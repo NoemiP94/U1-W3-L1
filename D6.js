@@ -271,23 +271,20 @@ const movies = [
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
-// const movie = movies.find(function (imdbID) {
-//   return movies.slice(3, 1) === 1
-// })
+// const movie = function (id) {
+//   let film = movies.find((film) => film.imdbID === id)
+//   return film
+// }
 
-// console.log(movie)
+// console.log(movie('tt4154756'))
 
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
 
-// const firstMovie = function () {
-//   const first = movies.findIndex(Year, '2003')
-//   return first
+// const firstMovie = function (year) {
+//   let film = movies.findIndex((film) => film.Year === year)
+//   return film
 // }
-
-// const firstMovie = movies.findIndex((Year) => {
-//   return movies.Title
-// })
 
 // console.log(firstMovie('2003'))
